@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.alert_list {
+	width: 280px;
+	margin-left: auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.error,
+.alert,
+.msg {
+	width: 200px;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #111;
+}
+.error {
+	 background-color: rgb(250, 75, 87);
+}
+.alert {
+	background-color: rgb(77, 148, 255);
+}
+.msg {
+ 	background-color: rgb(77, 255, 142);
+}
